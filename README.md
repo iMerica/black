@@ -15,7 +15,7 @@ White is a fork of Black with the following differences:
 
 ### Installation
 
-*White* can be installed by running `pip install white`.  It requires
+*White* can be installed by running `pip install git+https://github.com/iMerica/white.git@master`.  It requires
 Python 3.6.0+ to run but you can reformat Python 2 code with it, too.
 
 
