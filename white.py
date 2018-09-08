@@ -285,6 +285,7 @@ def main(
     fast: bool,
     pyi: bool,
     py36: bool,
+    skip_string_normalization: bool,
     quiet: bool,
     verbose: bool,
     include: str,
