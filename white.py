@@ -1012,7 +1012,7 @@ class Line:
     inside_brackets: bool = False
     should_explode: bool = False
 
-    def append(self, leaf: Leaf, preformatted: bool = True) -> None:
+    def append(self, leaf: Leaf, preformatted: bool = False) -> None:
         """Add a new `leaf` to the end of the line.
 
         Unless `preformatted` is True, the `leaf` will receive a new consistent
@@ -1040,7 +1040,7 @@ class Line:
         if not self.append_comment(leaf):
             self.leaves.append(leaf)
 
-    def append_safe(self, leaf: Leaf, preformatted: bool = True) -> None:
+    def append_safe(self, leaf: Leaf, preformatted: bool = False) -> None:
         """Like :func:`append()` but disallow invalid standalone comment structure.
 
         Raises ValueError when any `leaf` is appended after a standalone comment

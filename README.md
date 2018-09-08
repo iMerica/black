@@ -1,14 +1,12 @@
 # White
 
   
-<h2 align="center">The code formatter with nice, idiomatic defaults</h2>
-
-(⚠️ NOTE: This project WIP and not ready yet. ⚠️ )
-
+<h2 align="center">A Fork of Black with nicer, more idiomatic defaults</h2>
 
 White is a fork of Black with the following differences:
+
 - White doesn't downgrade strings to double quotes.
-- White doesn't go overboard with separate indented lines.
+- (WIP) White doesn't go overboard with separate indented lines.
 - White uses 120 line length instead of 88, which is sensible 
   since computer screens are larger now then they used to be 
   when 88 was popularized. 
