@@ -8,7 +8,7 @@ White is a fork of Black with the following differences:
 - White doesn't downgrade strings to double quotes.
 - (WIP) White doesn't go overboard with separate indented lines.
 - White uses 120 line length instead of 88, which is sensible 
-  since computer screens are larger now then they used to be 
+  since computer screens are larger now then were 
   when 88 was popularized. 
 
 ### Installation
