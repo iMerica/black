@@ -285,7 +285,6 @@ def main(
     fast: bool,
     pyi: bool,
     py36: bool,
-    skip_string_normalization: bool,
     quiet: bool,
     verbose: bool,
     include: str,
@@ -296,7 +295,7 @@ def main(
     """The uncompromising code formatter."""
     write_back = WriteBack.from_configuration(check=check, diff=diff)
     mode = FileMode.from_configuration(
-        py36=py36, pyi=pyi, skip_string_normalization=skip_string_normalization
+        py36=py36, pyi=pyi, skip_string_normalization=True,
     )
     if config and verbose:
         out(f"Using configuration from {config}.", bold=False, fg="blue")
