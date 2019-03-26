@@ -34,7 +34,7 @@ white {source_file_or_directory}
 white [OPTIONS] [SRC]...
 
 Options:
-  -l, --line-length INTEGER   Where to wrap around.  [default: 88]
+  -l, --line-length INTEGER   Where to wrap around.  [default: 120]
   --py36                      Allow using Python 3.6-only syntax on all input
                               files.  This will put trailing commas in function
                               signatures and calls also after *args and
